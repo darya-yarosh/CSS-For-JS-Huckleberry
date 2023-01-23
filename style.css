@@ -10,3 +10,83 @@ body {
 }
 
 /* Add styles here! */
+body {
+  font: Lato;
+  color: hsl(0deg, 0%, 0%);
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+title {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+strong {
+  font-weight: bold;
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  background-color: hsl(0deg, 0%, 40%);
+  
+  border-width: 8px 0px 0px 0px;
+  border-style: solid;
+  border-color: hsl(0deg, 0%, 60%);
+
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+p:last-child {
+  margin-bottom: 0rem;
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0px 24px;
+}
+
+.intro-chunk {
+  max-width: 415px;
+  padding-top: 96px;
+  padding-bottom: 64px;
+}
+
+.indented-heading {
+  width: fit-content;
+  font-size: 1.5rem;
+  background-color: hsl(45deg, 100%, 50%);
+  
+  margin: 0px 0px 1rem -32px;
+
+  padding-top: 16px;
+  padding-bottom: 15px;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  border-width: 0px 0px 8px 0px;
+  border-style: solid;
+  border-color: hsl(45deg, 100%, 40%);
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  
+  margin: 0px -24px;
+
+  padding-left: 24px;
+  padding-right: 24px;
+
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
